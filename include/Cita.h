@@ -2,18 +2,26 @@
 #define CITA_H
 
 #include <string>
-#include "paciente.h"
-#include "Médico.h"
 
 class Cita {
 public:
-    std::string fecha;
-    std::string urgencia;
-    Paciente paciente;
-    Medico medico;
+    Cita(const std::string& idPaciente, const std::string& idMedico, const std::string& fecha, bool esUrgente);
 
-    Cita(const std::string& fecha, const std::string& urgencia, const Paciente& paciente, const Medico& medico);
-    // otros métodos necesarios
+    // Getters and Setters
+    std::string getIdPaciente() const;
+    void setIdPaciente(const std::string& idPaciente);
+    std::string getIdMedico() const;
+    void setIdMedico(const std::string& idMedico);
+    std::string getFecha() const;
+    void setFecha(const std::string& fecha);
+    bool getEsUrgente() const;
+    void setEsUrgente(bool esUrgente);
+
+private:
+    std::string idPaciente;
+    std::string idMedico;
+    std::string fecha;
+    bool esUrgente;
 };
 
 #endif // CITA_H
