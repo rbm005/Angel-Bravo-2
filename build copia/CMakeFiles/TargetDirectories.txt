@@ -1,0 +1,3 @@
+/Users/rbm05/Library/CloudStorage/GoogleDrive-rodrigobarrero2005@gmail.com/Mi unidad/Carpetas/Trabajos MSMK/ASSIGNMENT BRIEF Unit 20-RodrigoBarrero.py/build/CMakeFiles/hospital.dir
+/Users/rbm05/Library/CloudStorage/GoogleDrive-rodrigobarrero2005@gmail.com/Mi unidad/Carpetas/Trabajos MSMK/ASSIGNMENT BRIEF Unit 20-RodrigoBarrero.py/build/CMakeFiles/edit_cache.dir
+/Users/rbm05/Library/CloudStorage/GoogleDrive-rodrigobarrero2005@gmail.com/Mi unidad/Carpetas/Trabajos MSMK/ASSIGNMENT BRIEF Unit 20-RodrigoBarrero.py/build/CMakeFiles/rebuild_cache.dir
