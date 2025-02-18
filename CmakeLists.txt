@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+project(GestionHospitalaria)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Incluir directorios de cabeceras
+include_directories(include)
+
+# Agregar los archivos fuente
+set(SOURCES
+    src/Cita.cpp
+    src/GestionHospital.cpp
+    src/Médico.cpp
+    src/paciente.cpp
+    main.cpp
+)
+
+# Crear el ejecutable
+add_executable(hospital ${SOURCES})
